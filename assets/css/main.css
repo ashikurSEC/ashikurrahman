@@ -1,3 +1,14 @@
+/**
+* Default Font
+*/
+
+@font-face {
+  font-family: 'YourFontName';
+  src: url('../font/FontleroyBrownNF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Fonts */
 :root {
@@ -480,7 +491,7 @@ section,
   font-weight: 800;
   font-size: 5rem;
   font-family: 'Spartan', sans-serif;
-  background: linear-gradient(to right, #fdfc47, #ba5370, #ff1770, #e0eafc);
+  background: linear-gradient(to right, #CA1F3D, #FFBE00, #FFFFFF, #c0191f);
   background-size: 200% auto;
   color: transparent;
   background-clip: text;
@@ -525,6 +536,8 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
